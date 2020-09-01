@@ -1,0 +1,11 @@
+.div{
+    display:  flex;
+    width: 94%;
+}
+
+.input {
+    margin-right:5px;
+}
+.button{
+    display: block;
+}

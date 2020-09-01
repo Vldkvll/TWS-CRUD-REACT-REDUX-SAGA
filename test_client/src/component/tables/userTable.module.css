@@ -1,0 +1,17 @@
+.tableControl{
+    width: 100%;
+    cellspacing: "0";
+    cellpadding: "4";
+    border: 1px
+}
+
+.imgControl {
+    border: .5px solid #ddd; /* Gray border */
+    border-radius: 100px;  /* Rounded border */
+    padding: 2px; /* Some padding */
+    width: 40px; /* Set a small width */
+}
+
+.img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

@@ -1,0 +1,33 @@
+
+.nav{
+    grid-area: n;
+    background-color: azure;
+    padding: 20px;
+}
+
+.item{
+    display: inline-block;
+    color: #0250bc;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.itemSearch{
+
+    display: inline-block;
+    color: #0250bc;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70%;
+}
+
+.active {
+    font-size: larger;
+    font-weight: bolder;
+    color: #0246a2;
+}

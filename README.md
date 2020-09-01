@@ -8,7 +8,7 @@ $ mongod
 
 ```bash
 git clonehttps://github.com/Vldkvll/TWS-CRUD-REACT-REDUX-SAGA.git
-cd react-redux-crud
+
 ```
 
 In terminal 1:

@@ -2,6 +2,10 @@
 
 ## How to install
 
+First, you will need to install and run MongoDB in another terminal instance.
+
+$ mongod
+
 ```bash
 git clonehttps://github.com/Vldkvll/TWS-CRUD-REACT-REDUX-SAGA.git
 cd react-redux-crud

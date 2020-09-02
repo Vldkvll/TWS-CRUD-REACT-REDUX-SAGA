@@ -23,7 +23,7 @@ npm install
 In terminal 2:
 
 ```bash
-cd client
+cd test_client
 
 npm install
 

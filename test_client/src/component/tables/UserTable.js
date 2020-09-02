@@ -3,7 +3,7 @@ import ava from '../../assets/ava.jpg'
 import style from './userTable.module.css'
 
 const UserTable = ({users, deleteUser, editRow, filterUser}) => {
-    const initialFormState = {name: '', email: '', role: '', date: ''}
+    const initialFormState = {name: '', email: '', role: '', startDate: ''}
     const [user, setUser] = useState(initialFormState)
 
     const handleDeleteUser = id => {
@@ -19,7 +19,7 @@ const UserTable = ({users, deleteUser, editRow, filterUser}) => {
     }
 
     const handleApplyFilterOnClick = event => {
-        Object.keys(user).forEach((key) => (user[key] == "") && delete user[key]);
+        Object.keys(user).forEach((key) => (user[key] === "") && delete user[key]);
         filterUser(user)
         setUser(initialFormState)
     }
@@ -68,8 +68,8 @@ const UserTable = ({users, deleteUser, editRow, filterUser}) => {
                 </th>
                 <th>
                     <input
-                        value={user.date}
-                        name={`date`}
+                        value={user.startDate}
+                        name={`startDate`}
                         type="text"
                         className={`form-control form-control-sm`}
                         placeholder={`Filter Date`}

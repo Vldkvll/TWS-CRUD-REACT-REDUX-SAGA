@@ -14,8 +14,7 @@ npm install
 
 
 ```bash
-npm run migrate
-npm run dev
+npm start
 ```
 
 You can now view the client SPA in the browser.

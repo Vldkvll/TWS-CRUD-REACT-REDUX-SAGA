@@ -4,7 +4,6 @@ import classes from "./Add.module.css";
 
 const Add = ({addUser}) => {
 
-
     return (
         <div className={classes.div}>
             <h2>Add user</h2>
